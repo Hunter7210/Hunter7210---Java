@@ -68,16 +68,15 @@ public class Logica1 {
     }
 
     public void ativ2() {
-        int aleatorio = rd.nextInt(10);
+        int aleatorio = rd.nextInt(1000)+1;
         int cont = 0;
         int resp;
         boolean tentativas = true;
         while (tentativas) {
-
+    
             System.out.println("Por favor faça seu palpite: ");
-
             resp = sc.nextInt();
-
+            cont++;
             if (resp == aleatorio) {
                 System.out.println("!Você acertou!");
                 tentativas = false;
@@ -85,12 +84,9 @@ public class Logica1 {
                 System.out.println("Seu palpite precisa ser menor");
             } else if (resp < aleatorio) {
                 System.out.println("Seu palpite precisa ser maior");
-            }
-            cont++;
+            }   
         }
-
         System.out.println(cont);
-
     }
 
     public void ativ3() {
