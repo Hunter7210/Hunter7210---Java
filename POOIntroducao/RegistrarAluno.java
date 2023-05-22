@@ -48,8 +48,5 @@ public class RegistrarAluno {
         public void setIdade(String temp) {
             nome = temp;
         }
-        
-
-        
 
 }  

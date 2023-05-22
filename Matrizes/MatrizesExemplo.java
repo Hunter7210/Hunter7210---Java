@@ -11,6 +11,7 @@ public class MatrizesExemplo {
         // Exemplo de criação/preenchimento/impressão de matriz
         // declara a minha matriz de 2 dimensões
         int tab[][] = new int[10][9]; // 10 e 9 são o tamanho do meu espaço(vetor), ainda para preencher
+       
         // preencher a matriz
         for (int i = 0; i < 10; i++) { // qunatida de elemntos que tenho na primeira dimensao da matriz
             // laço vai percorrer a 1° dimensão(camada) da matriz
