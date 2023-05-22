@@ -103,14 +103,15 @@ public class Logica1 {
 
         for (int i = 0; i < vetor.length; i++) {
             if (vetor[i]%2 == 0) {
-                System.out.println("Numeros pares no vetor ["+(i+1)+"]: " +vetor);
+                System.out.println("Numeros pares no vetor ["+(i+1)+"]: " +vetor[i]);
                 System.out.println();
                 
             }            
-/*             if (vetor[i]%2 != 0) {
+            if (vetor[i]%2 != 0) {
+                System.out.println("Numeros impares no vetor ["+(i+1)+"]: " +vetor[i]);
+                System.out.println();
                 
-            } */
-        
+            }            
         }
         
 
