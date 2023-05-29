@@ -2,8 +2,7 @@ package CalculadoraDeDesconto;
 
 import java.lang.reflect.Method;
 
-public class CalculadoraDescontos 
-{
+public class CalculadoraDescontos {
     
     System.out.println("=================="); //ALTERE O VALOR DA VARIÁVEL ABAIXO PARAR REALIZAR TESTES
     double precoProduto;
