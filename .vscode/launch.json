@@ -4,7 +4,20 @@
     // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ExercicioPOO2.App",
+            "projectName": "Hunter7210---Java_4108b193"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "ExerciciosPOO.App",
+            "projectName": "Hunter7210---Java_4108b193"
+        },
         {
             "type": "java",
             "name": "Current File",
